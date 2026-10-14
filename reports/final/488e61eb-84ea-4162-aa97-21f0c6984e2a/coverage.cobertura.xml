@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="1" branch-rate="1" version="1.9" timestamp="1791997673" lines-covered="11" lines-valid="11" branches-covered="4" branches-valid="4">
+  <sources>
+    <source>C:\</source>
+  </sources>
+  <packages>
+    <package name="BudgetCalculator" line-rate="1" branch-rate="1" complexity="4">
+      <classes>
+        <class name="BudgetCalculator.Controllers.BudgetController" filename="Users\denis\OneDrive\Рабочий стол\budget-calculator-tests\BudgetCalculator\Controllers\BudgetController.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="Calculate" signature="(BudgetCalculator.Models.BudgetRequest)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="12" hits="6" branch="False" />
+                <line number="13" hits="6" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="15" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="14" hits="2" branch="False" />
+                <line number="15" hits="2" branch="False" />
+                <line number="18" hits="4" branch="False" />
+                <line number="20" hits="4" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="63" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+                <line number="25" hits="4" branch="False" />
+                <line number="26" hits="6" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="6" branch="False" />
+            <line number="13" hits="6" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="15" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="14" hits="2" branch="False" />
+            <line number="15" hits="2" branch="False" />
+            <line number="18" hits="4" branch="False" />
+            <line number="20" hits="4" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="63" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="25" hits="4" branch="False" />
+            <line number="26" hits="6" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

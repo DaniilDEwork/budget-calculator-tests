@@ -1,0 +1,23 @@
+Summary
+  Generated on: 14.10.2026 - 20:09:30
+  Coverage date: 14.10.2026 - 20:07:53
+  Parser: Cobertura
+  Assemblies: 1
+  Classes: 1
+  Files: 1
+  Line coverage: 100%
+  Covered lines: 11
+  Uncovered lines: 0
+  Coverable lines: 11
+  Total lines: 27
+  Branch coverage: 100% (4 of 4)
+  Covered branches: 4
+  Total branches: 4
+  Method coverage: 100% (1 of 1)
+  Full method coverage: 100% (1 of 1)
+  Covered methods: 1
+  Fully covered methods: 1
+  Total methods: 1
+
+BudgetCalculator                                   100%
+  BudgetCalculator.Controllers.BudgetController    100%

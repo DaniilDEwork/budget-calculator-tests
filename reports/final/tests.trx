@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="111f01f9-b2ea-481b-922e-6d31e55b813a" name="denis@MYPC 2026-10-14 20:07:53" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-10-14T20:07:53.9210791+03:00" queuing="2026-10-14T20:07:53.9210793+03:00" start="2026-10-14T20:07:53.0245551+03:00" finish="2026-10-14T20:07:53.9248579+03:00" />
+  <TestSettings name="default" id="35b6c47a-7879-409e-8f16-8cadd1fea477">
+    <Deployment runDeploymentRoot="denis_MYPC_2026-10-14_20_07_53" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="2e572ded-e7e2-46cc-9c01-63521f46274b" testId="ee9f7f14-dbc9-2ee3-6179-47ea7848af74" testName="BudgetCalculator.Tests.BudgetControllerTests.Calculate_ZeroDailyCost_ReturnsOkAndZero" computerName="MYPC" duration="00:00:00.0000979" startTime="2026-10-14T20:07:53.7209406+03:00" endTime="2026-10-14T20:07:53.7209617+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2e572ded-e7e2-46cc-9c01-63521f46274b" />
+    <UnitTestResult executionId="1c7fdf91-116b-43e5-aa15-03fccf0b9c2c" testId="9e977b04-cb0d-4bad-36a2-f9dd923cb6fd" testName="BudgetCalculator.Tests.BudgetControllerTests.Calculate_WithoutInsurance_ReturnsOkAnd500" computerName="MYPC" duration="00:00:00.0181643" startTime="2026-10-14T20:07:53.7001831+03:00" endTime="2026-10-14T20:07:53.7121333+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1c7fdf91-116b-43e5-aa15-03fccf0b9c2c" />
+    <UnitTestResult executionId="28788ac1-cf71-43e9-92d1-ff6cb0f0ec0c" testId="cd545a7b-7618-e2cd-074e-bf0865045b7a" testName="BudgetCalculator.Tests.BudgetControllerTests.Calculate_WithInsurance_ReturnsOkAnd525" computerName="MYPC" duration="00:00:00.0006116" startTime="2026-10-14T20:07:53.7196160+03:00" endTime="2026-10-14T20:07:53.7196735+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="28788ac1-cf71-43e9-92d1-ff6cb0f0ec0c" />
+    <UnitTestResult executionId="68cb4cf8-6d03-41c1-94b7-b23b8fed4147" testId="6f6bfc88-b22a-c6c1-5d8a-57d3d1d17152" testName="BudgetCalculator.Tests.BudgetControllerTests.Calculate_NonPositiveDays_ReturnsBadRequest(days: -1)" computerName="MYPC" duration="00:00:00.0018164" startTime="2026-10-14T20:07:53.7202079+03:00" endTime="2026-10-14T20:07:53.7202345+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="68cb4cf8-6d03-41c1-94b7-b23b8fed4147" />
+    <UnitTestResult executionId="b25089ed-587e-4d7f-87fd-0bdc1ac460e4" testId="7b501992-f633-e4b3-861c-73eabcadfe99" testName="BudgetCalculator.Tests.BudgetControllerTests.Calculate_NonPositiveDays_ReturnsBadRequest(days: 0)" computerName="MYPC" duration="00:00:00.0001022" startTime="2026-10-14T20:07:53.7204620+03:00" endTime="2026-10-14T20:07:53.7204831+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b25089ed-587e-4d7f-87fd-0bdc1ac460e4" />
+    <UnitTestResult executionId="dbadb759-454f-48d6-8206-b075fda5c583" testId="a37d4f34-c90a-f5ae-3f51-10e1691b640c" testName="BudgetCalculator.Tests.BudgetControllerTests.Calculate_FractionalDailyCost_ReturnsOkAnd301Point50" computerName="MYPC" duration="00:00:00.0001340" startTime="2026-10-14T20:07:53.7207012+03:00" endTime="2026-10-14T20:07:53.7207262+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dbadb759-454f-48d6-8206-b075fda5c583" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="BudgetCalculator.Tests.BudgetControllerTests.Calculate_NonPositiveDays_ReturnsBadRequest(days: 0)" storage="c:\users\denis\onedrive\рабочий стол\budget-calculator-tests\budgetcalculator.tests\bin\debug\net8.0\budgetcalculator.tests.dll" id="7b501992-f633-e4b3-861c-73eabcadfe99">
+      <Execution id="b25089ed-587e-4d7f-87fd-0bdc1ac460e4" />
+      <TestMethod codeBase="C:\Users\denis\OneDrive\Рабочий стол\budget-calculator-tests\BudgetCalculator.Tests\bin\Debug\net8.0\BudgetCalculator.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="BudgetCalculator.Tests.BudgetControllerTests" name="Calculate_NonPositiveDays_ReturnsBadRequest" />
+    </UnitTest>
+    <UnitTest name="BudgetCalculator.Tests.BudgetControllerTests.Calculate_WithInsurance_ReturnsOkAnd525" storage="c:\users\denis\onedrive\рабочий стол\budget-calculator-tests\budgetcalculator.tests\bin\debug\net8.0\budgetcalculator.tests.dll" id="cd545a7b-7618-e2cd-074e-bf0865045b7a">
+      <Execution id="28788ac1-cf71-43e9-92d1-ff6cb0f0ec0c" />
+      <TestMethod codeBase="C:\Users\denis\OneDrive\Рабочий стол\budget-calculator-tests\BudgetCalculator.Tests\bin\Debug\net8.0\BudgetCalculator.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="BudgetCalculator.Tests.BudgetControllerTests" name="Calculate_WithInsurance_ReturnsOkAnd525" />
+    </UnitTest>
+    <UnitTest name="BudgetCalculator.Tests.BudgetControllerTests.Calculate_NonPositiveDays_ReturnsBadRequest(days: -1)" storage="c:\users\denis\onedrive\рабочий стол\budget-calculator-tests\budgetcalculator.tests\bin\debug\net8.0\budgetcalculator.tests.dll" id="6f6bfc88-b22a-c6c1-5d8a-57d3d1d17152">
+      <Execution id="68cb4cf8-6d03-41c1-94b7-b23b8fed4147" />
+      <TestMethod codeBase="C:\Users\denis\OneDrive\Рабочий стол\budget-calculator-tests\BudgetCalculator.Tests\bin\Debug\net8.0\BudgetCalculator.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="BudgetCalculator.Tests.BudgetControllerTests" name="Calculate_NonPositiveDays_ReturnsBadRequest" />
+    </UnitTest>
+    <UnitTest name="BudgetCalculator.Tests.BudgetControllerTests.Calculate_FractionalDailyCost_ReturnsOkAnd301Point50" storage="c:\users\denis\onedrive\рабочий стол\budget-calculator-tests\budgetcalculator.tests\bin\debug\net8.0\budgetcalculator.tests.dll" id="a37d4f34-c90a-f5ae-3f51-10e1691b640c">
+      <Execution id="dbadb759-454f-48d6-8206-b075fda5c583" />
+      <TestMethod codeBase="C:\Users\denis\OneDrive\Рабочий стол\budget-calculator-tests\BudgetCalculator.Tests\bin\Debug\net8.0\BudgetCalculator.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="BudgetCalculator.Tests.BudgetControllerTests" name="Calculate_FractionalDailyCost_ReturnsOkAnd301Point50" />
+    </UnitTest>
+    <UnitTest name="BudgetCalculator.Tests.BudgetControllerTests.Calculate_ZeroDailyCost_ReturnsOkAndZero" storage="c:\users\denis\onedrive\рабочий стол\budget-calculator-tests\budgetcalculator.tests\bin\debug\net8.0\budgetcalculator.tests.dll" id="ee9f7f14-dbc9-2ee3-6179-47ea7848af74">
+      <Execution id="2e572ded-e7e2-46cc-9c01-63521f46274b" />
+      <TestMethod codeBase="C:\Users\denis\OneDrive\Рабочий стол\budget-calculator-tests\BudgetCalculator.Tests\bin\Debug\net8.0\BudgetCalculator.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="BudgetCalculator.Tests.BudgetControllerTests" name="Calculate_ZeroDailyCost_ReturnsOkAndZero" />
+    </UnitTest>
+    <UnitTest name="BudgetCalculator.Tests.BudgetControllerTests.Calculate_WithoutInsurance_ReturnsOkAnd500" storage="c:\users\denis\onedrive\рабочий стол\budget-calculator-tests\budgetcalculator.tests\bin\debug\net8.0\budgetcalculator.tests.dll" id="9e977b04-cb0d-4bad-36a2-f9dd923cb6fd">
+      <Execution id="1c7fdf91-116b-43e5-aa15-03fccf0b9c2c" />
+      <TestMethod codeBase="C:\Users\denis\OneDrive\Рабочий стол\budget-calculator-tests\BudgetCalculator.Tests\bin\Debug\net8.0\BudgetCalculator.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="BudgetCalculator.Tests.BudgetControllerTests" name="Calculate_WithoutInsurance_ReturnsOkAnd500" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="ee9f7f14-dbc9-2ee3-6179-47ea7848af74" executionId="2e572ded-e7e2-46cc-9c01-63521f46274b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9e977b04-cb0d-4bad-36a2-f9dd923cb6fd" executionId="1c7fdf91-116b-43e5-aa15-03fccf0b9c2c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cd545a7b-7618-e2cd-074e-bf0865045b7a" executionId="28788ac1-cf71-43e9-92d1-ff6cb0f0ec0c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6f6bfc88-b22a-c6c1-5d8a-57d3d1d17152" executionId="68cb4cf8-6d03-41c1-94b7-b23b8fed4147" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b501992-f633-e4b3-861c-73eabcadfe99" executionId="b25089ed-587e-4d7f-87fd-0bdc1ac460e4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a37d4f34-c90a-f5ae-3f51-10e1691b640c" executionId="dbadb759-454f-48d6-8206-b075fda5c583" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Список результатов" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="6" executed="6" passed="6" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.5+1b188a7b0a (64-bit .NET 8.0.32)&#xD;
+[xUnit.net 00:00:00.04]   Discovering: BudgetCalculator.Tests&#xD;
+[xUnit.net 00:00:00.06]   Discovered:  BudgetCalculator.Tests&#xD;
+[xUnit.net 00:00:00.07]   Starting:    BudgetCalculator.Tests&#xD;
+[xUnit.net 00:00:00.12]   Finished:    BudgetCalculator.Tests&#xD;
+</StdOut>
+    </Output>
+    <CollectorDataEntries>
+      <Collector agentName="MYPC" uri="datacollector://microsoft/CoverletCodeCoverage/1.0" collectorDisplayName="XPlat code coverage">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="MYPC\coverage.cobertura.xml"></A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+</TestRun>
